@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+a {
+  text-decoration: none;
+}
+
+header {
+    height: 55px;
+    background-color: rgb(255,255,128);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-left {
+    padding: 15px 0px;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+ }
+
+ .top-wrapper {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(216,242,128);
+    font-size: 14px;
+    text-align: center;
+ }
+
+.container h1 {
+    letter-spacing: 5px;
+}
+
+.container p {
+    letter-spacing: 2px;
+}
+
+.btn {
+    padding: 8px 24px;
+    display: inline-block;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.likedin {
+    background-color: #55acee;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.fa-brands {
+    margin-right: 5px;
+}
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding: 60px 0 30px 0;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: nomal;
+}
+
+.lesson {
+    float: left;
+    width: 33.3%;
+}
+
+.txt-contents {
+    width: 70%;
+    display: inline-block;
+    margin: 10px;
+    font-size: 14px;
+}
+
+footer i {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 20px;
+}
